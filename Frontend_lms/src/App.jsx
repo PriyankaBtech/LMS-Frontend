@@ -1,12 +1,15 @@
-
 import './App.css'
+
+import { Routes } from 'react-router-dom' 
+
 
 function App() {
 
 
   return (
     <>
-     <h1 className='bg-pink-600'>Hello</h1>
+    <Routes >
+     </Routes>
     </>
   )
 }
