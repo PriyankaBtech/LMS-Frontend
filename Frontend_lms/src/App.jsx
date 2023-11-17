@@ -1,6 +1,8 @@
 import './App.css'
 
-import { Routes } from 'react-router-dom' 
+import HomeLayout from './Layout/HomeLayout'
+
+//import { Routes } from 'react-router-dom' 
 
 
 function App() {
@@ -8,8 +10,9 @@ function App() {
 
   return (
     <>
-    <Routes >
-     </Routes>    
+    {/* <Routes >
+     </Routes>     */}
+     <HomeLayout/>
     </>
   )
 }
