@@ -1,9 +1,8 @@
 import AboutPageImage from "../Assets/Images/ImageOne.png";
-import HomeLayout from "../Layout/HomeLayout";
 
 function AboutUs() {
   return (
-    <HomeLayout>
+    <>
         <div className="pl-20 pt-20 flex flex-col text-white">
             <div className="flex items-center gap-5 mx-10">
                 <section className="w-1/2 space-y-10">
@@ -28,12 +27,11 @@ function AboutUs() {
                     className="drop-shadow-2xl"
                     src={ AboutPageImage }
                 />
-                </div>             
-               
+                </div>           
             </div>
         </div>
 
-    </HomeLayout>  
+    </>  
   )
 }
 
